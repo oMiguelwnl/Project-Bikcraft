@@ -1,11 +1,11 @@
-<div class="quebra">
+		<div class="quebra">
 			<blockquote class="quote-externo container">
 				<p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
 				<cite>WILLIAM MORRIS</cite>
 			</blockquote>
-</div>
+		</div>
 
-<footer>
+		<footer>
 			<div class="footer">
 				<div class="container">
 
@@ -40,7 +40,6 @@
 					<p class="grid-16">Bikcraft 2015 - Alguns direitos reservados.</p>
 				</div>
 			</div>
-      
 		</footer>
 
 	<!-- JavaScript -->
@@ -60,8 +59,10 @@
 	  ga('send', 'pageview');
 
 	</script>
-  <!-- Início Wordpress Footer -->
-  <?php wp_footer(); ?>
-    <!-- Final Wordpress Footer -->
+
+	<!-- Inicio Wordpress Footer -->
+	<?php wp_footer(); ?>
+	<!-- Final Wordpress Footer -->
+
 	</body>
 </html>
