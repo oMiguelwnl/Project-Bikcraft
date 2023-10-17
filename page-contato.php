@@ -1,9 +1,12 @@
 <?php
 // Template Name: Contato
-	get_header();
+get_header();
 ?>
+
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
+
+		<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
+
 		<section class="contato container animar-interno">
 			<form action="enviar.php" method="post" name="form" class="formphp contato_form grid-8">
 				<label for="nome">Nome</label>
@@ -38,9 +41,9 @@
 				</ul>
 			</div>
 		</section>
-
 		<section class="container contato_mapa">
 			<a href="http://google.com" target="_blank" class="grid-16"><img src="img/endereco-bikcraft.jpg" alt="Endereço da Bikcraft"></a>
 		</section>
-<?php endwhile; else: endif ?>
+<?php endwhile; else: endif; ?>
+
 <?php get_footer(); ?>

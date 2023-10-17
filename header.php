@@ -26,14 +26,14 @@
 
 		<header class="header">
 			<div class="container">
-				<a href="/" class="grid-4">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/bikcraft.png" alt="Bikcraft">
+				<a href="/bikcraft/" class="grid-4">
+					<img src="<?php echo get_template_directory_uri(); ?>/img/bikcraft.png" alt="Bikcraft">
 				</a>
 				<nav class="grid-12 header_menu">
 					<ul>
 						<li><a href="/bikcraft/sobre/">Sobre</a></li>
 						<li><a href="/bikcraft/produtos/">Produtos</a></li>
-						<li><a href="/bikcraft/portifolio/">Portfólio</a></li>
+						<li><a href="/bikcraft/portfolio/">Portfólio</a></li>
 						<li><a href="/bikcraft/contato/">Contato</a></li>
 					</ul>
 				</nav>

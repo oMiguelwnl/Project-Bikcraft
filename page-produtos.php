@@ -1,9 +1,12 @@
 <?php
 // Template Name: Produtos
-	get_header();
+get_header();
 ?>
+
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
+	
+		<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
+
 		<section class="container produto_item animar-interno">
 			<div class="grid-11">
 				<img src="img/produtos/bikcraft-passeio-1.jpg" alt="Bikcraft Passeio">
@@ -95,5 +98,6 @@
 				</div>
 			</div>
 		</section>
-<?php endwhile; else: endif ?>
+<?php endwhile; else: endif; ?>
+
 <?php get_footer(); ?>
